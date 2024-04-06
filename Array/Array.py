@@ -1,22 +1,23 @@
-#Jumlah Murid
-masukan = int(input("Masukkan Jumlah Murid : "))
-#List Kosong
-murid = []
-# a disini nanti berfungsi untuk nomor murid
+# How many Students
+studentCounts = int(input("How many students you want to print the name : "))
+# Empty array
+students = []
+# This var will be used later to be students number
 a = 0
 
-#for disini untuk memasukkan jumlah list
-for i in range (1,masukan+1) :
-    #membuat variabel nama untuk mengisikan list murid
-    nama = input("Inputkan nama murid yang ke-{} : ".format(i)) #jadi format i disini sesuai dengan range murid tadi yang dimasukkan 
-    #fungsi list untuk menambahkan variabel nama sebelumnya
-    murid.append(nama)
-print("Jumlah murid = ",masukan,"anak")
-print("Yaitu : ")
-#untuk j didalam list murid yaitu [0,1]
-for j in murid :
+# For i = 1 until studentCounts+1
+for i in range (1, studentCounts+1) :
+    # Input the name of the students
+    name = input("Students number "+ str(i) +" is : ")
+    # Array function to add member
+    students.append(name)
+
+print("Students that in the array is = "+ str(studentCounts))
+print("The names are : ")
+# For each j in students
+for j in students :
     a+=1
-    print(a,". {}".format(j)) # sama saja seperti print(a,".",j)
+    print(a,". {}".format(j)) # Same like print(a,".",j)
 
 
     

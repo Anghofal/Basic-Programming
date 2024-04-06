@@ -1,5 +1,5 @@
-def luas(sisi) :
-    luas = sisi*sisi
-    return luas
+def Area(sideOfSquare) :
+    area = sideOfSquare*sideOfSquare
+    return area
 
-print ("luas persegi : %d"%luas(6))
+print ("Square Area is : %d"%Area(6))

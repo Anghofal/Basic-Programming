@@ -1,7 +1,7 @@
-def luas(sisi) :
-    luas  =sisi*sisi
-    return luas
-def volume(sisi):
-    volume = luas(sisi) * sisi
+def Area(sideOfSquare) :
+    area = sideOfSquare * sideOfSquare
+    return area
+def Volume(sideOfSquare):
+    volume = Area(sideOfSquare) * sideOfSquare
     return volume
-print(volume(6))
+print(Volume(6))
