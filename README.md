@@ -1,5 +1,5 @@
 # Basic-Programming
-- ![Alt text](Readme Image/Array.PNG)
+![Example Code Image Of Basic-Programming](ReadmeImage/Array.PNG) ![Example Run App Image Of Basic-Programming](ReadmeImage/Array.PNG)
 - A little content of App Description
 
 # Background Basic-Programming
